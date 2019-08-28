@@ -1,0 +1,17 @@
+{
+  "name": "browsers-puppeteer-example",
+  "version": "1.0.0",
+  "description": "Aerokube Browsers Puppeteer Example",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aerokube/browsers-puppeteer-example.git"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "chrome-76",
+    "webdriverio": "^5.12.5"
+  }
+}
