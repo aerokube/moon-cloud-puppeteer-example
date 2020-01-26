@@ -6,3 +6,9 @@ This example demonstrates how to work with [Chrome Devtools Protocol](https://ch
 $ npm install
 $ npm test
 ```
+
+To show Chrome Debug Protocol traffic add an environment variable:
+
+```
+$ DEBUG="puppeteer:*" npm test
+```
