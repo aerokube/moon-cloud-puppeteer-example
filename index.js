@@ -8,7 +8,7 @@ const password = 'test-password';
 
 (async () => {
     const devtools = await puppeteer.connect(
-        { timeout: 0, browserWSEndpoint: `wss://${username}:${password}@${host}/cdtp/chrome/86.0` }
+        { timeout: 0, browserWSEndpoint: `ws://${username}:${password}@${host}/devtools/chrome/97.0?headless=false&enableVideo=true&videoName=testfile.mp4` }
     );
     const page = await devtools.newPage();
     await page.goto('https://aerokube.com');
