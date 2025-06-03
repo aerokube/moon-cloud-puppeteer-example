@@ -11,6 +11,6 @@
     "test": "node index.js"
   },
   "dependencies": {
-    "puppeteer-core": "22.11.2"
+    "puppeteer-core": "22.15.0"
   }
 }
